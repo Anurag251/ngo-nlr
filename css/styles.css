@@ -3630,7 +3630,7 @@ footer .list .item .details .group input {
 
 .side-nav .side-nav-logo .logo {
   height: 60px;
-  width: 200px;
+  width: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3640,7 +3640,6 @@ footer .list .item .details .group input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
   border-radius: 15px;
 }
 
@@ -3738,8 +3737,8 @@ footer .list .item .details .group input {
 }
 
 .mobile-header .wrapper .logo {
-  height: 60px;
-  width: 150px;
+  height: 80px;
+  width: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
