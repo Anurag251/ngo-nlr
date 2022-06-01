@@ -15,7 +15,7 @@ select
   appearance: none
 
 $main: #EA560C
-$pri: #1b691f
+$pri: #6B195A
 $sec: #fbb016
 $bg: #f9f9ff
 $title: #373737
@@ -121,14 +121,13 @@ button
   &:hover
     box-shadow: 0 4px 10px rgba($dark, .1)
 
-.admission-open
+.donate-to-nlr
   position: fixed
   bottom: 10px
   right: 10px
-  width: 300px
   z-index: 10
 
-  .admission-btn
+  .donate-to-nlr-btn
     @include flex($justify: space-between)
     padding: .5rem 1rem
     background-color: $main
@@ -138,9 +137,6 @@ button
     width: 100%
     font-size: 17px
     cursor: pointer
-
-    i
-      font-size: 14px
 
   .list
     position: absolute
@@ -397,7 +393,7 @@ header
             position: absolute
             left: 50%
             top: 70px
-            width: 120px
+            width: 180px
             transform: translateX(-50%)
             background-color: $pri
             padding: .5rem
@@ -411,6 +407,7 @@ header
 
             li
               font-weight: 600
+              width: 100%
               letter-spacing: 1.3px
               width: 100%
               padding: .5rem 0
@@ -446,8 +443,8 @@ header
                 margin-bottom: 0
 
           i
-            font-size: 13px
-            margin-left: 7px
+            font-size: 11px
+            margin-left: 2px
 
           a
             color: $light
@@ -681,10 +678,10 @@ header
       border-radius: 15px
       box-shadow: 4px 4px 20px rgba($dark, .05)
       overflow: hidden
+      @include image
 
-      &:after
+      .facilities-image
         position: absolute
-        content: ''
         height: 0
         width: 0
         background: linear-gradient(0deg, $main, $pri)
@@ -692,40 +689,55 @@ header
         z-index: 1
         border-radius: 15px
 
+        img
+          height: 100%
+          width: 100%
+          object-fit: cover
+
+        &::after
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          height: 100%
+          width: 100%
+          background-color: rgba($dark, .5)
+          z-index: 2
+
       &:nth-child(1)
-        &:after
+        .facilities-image
           top: 0
           left: 0
 
       &:nth-child(2)
-        &:after
+        .facilities-image
           top: 0
           left: 0
           width: 100%
 
       &:nth-child(3)
-        &:after
+        .facilities-image
           top: 0
           right: 0
 
       &:nth-child(4)
-        &:after
+        .facilities-image
           bottom: 0
           left: 0
 
       &:nth-child(5)
-        &:after
+        .facilities-image
           bottom: 0
           left: 0
           width: 100%
 
       &:nth-child(6)
-        &:after
+        .facilities-image
           bottom: 0
           right: 0
 
       &:hover
-        &:after
+        .facilities-image
           height: 100%
           width: 100%
 

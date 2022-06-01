@@ -38,7 +38,7 @@ section.bg {
 
 .title h4 {
   text-transform: uppercase;
-  color: #1b691f;
+  color: #6B195A;
   letter-spacing: 1.5px;
   font-style: normal;
   font-weight: 600;
@@ -95,15 +95,14 @@ button:hover {
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.admission-open {
+.donate-to-nlr {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  width: 300px;
   z-index: 10;
 }
 
-.admission-open .admission-btn {
+.donate-to-nlr .donate-to-nlr-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,11 +123,7 @@ button:hover {
   cursor: pointer;
 }
 
-.admission-open .admission-btn i {
-  font-size: 14px;
-}
-
-.admission-open .list {
+.donate-to-nlr .list {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -146,13 +141,13 @@ button:hover {
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
 }
 
-.admission-open .list.active {
+.donate-to-nlr .list.active {
   bottom: 55px;
   opacity: 1;
   pointer-events: auto;
 }
 
-.admission-open .list li {
+.donate-to-nlr .list li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,7 +160,7 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-.admission-open .list li button {
+.donate-to-nlr .list li button {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
@@ -179,13 +174,13 @@ button:hover {
   border-radius: 20px;
 }
 
-.admission-open .list li button:hover {
+.donate-to-nlr .list li button:hover {
   -webkit-box-shadow: 0 0 0 0em #EA560C inset;
           box-shadow: 0 0 0 0em #EA560C inset;
   color: #EA560C;
 }
 
-.admission-open .list li:nth-last-child(1) {
+.donate-to-nlr .list li:nth-last-child(1) {
   margin-bottom: 0;
 }
 
@@ -392,7 +387,7 @@ button:hover {
 
 .enquiry-form-popup .title {
   text-transform: uppercase;
-  color: #1b691f;
+  color: #6B195A;
   margin-bottom: 2rem;
 }
 
@@ -438,9 +433,9 @@ button:hover {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -448,9 +443,9 @@ button:hover {
 }
 
 .enquiry-form-popup button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 /*********************      header      ***********************/
@@ -557,17 +552,17 @@ header .navbar .main-sec .nav-links li .nav-link {
 }
 
 header .navbar .main-sec .nav-links li .nav-link:hover {
-  background-color: rgba(27, 105, 31, 0.1);
+  background-color: rgba(107, 25, 90, 0.1);
 }
 
 header .navbar .main-sec .nav-links li .drop {
   position: absolute;
   left: 50%;
   top: 70px;
-  width: 120px;
+  width: 180px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: #1b691f;
+  background-color: #6B195A;
   padding: .5rem;
   z-index: 5;
   border-radius: 15px;
@@ -582,6 +577,7 @@ header .navbar .main-sec .nav-links li .drop {
 
 header .navbar .main-sec .nav-links li .drop li {
   font-weight: 600;
+  width: 100%;
   letter-spacing: 1.3px;
   width: 100%;
   padding: .5rem 0;
@@ -609,7 +605,7 @@ header .navbar .main-sec .nav-links li .drop li.more-dropdown .drop-right {
   position: absolute;
   left: 170px;
   top: -16px;
-  background-color: #1b691f;
+  background-color: #6B195A;
   padding: 1rem;
   z-index: 5;
   border-radius: 15px;
@@ -624,8 +620,8 @@ header .navbar .main-sec .nav-links li .drop li:nth-last-child(1) {
 }
 
 header .navbar .main-sec .nav-links li i {
-  font-size: 13px;
-  margin-left: 7px;
+  font-size: 11px;
+  margin-left: 2px;
 }
 
 header .navbar .main-sec .nav-links li a {
@@ -672,7 +668,7 @@ header .other-sec .social-links .links {
 }
 
 header .other-sec .social-links .links i {
-  color: #1b691f;
+  color: #6B195A;
   font-size: 16px;
 }
 
@@ -693,9 +689,9 @@ header .other-sec .login button {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -705,9 +701,9 @@ header .other-sec .login button {
 }
 
 header .other-sec .login button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 /*********************      banner      ***********************/
@@ -832,7 +828,7 @@ header .other-sec .login button:hover {
 }
 
 .news-slide {
-  background-color: #1b691f;
+  background-color: #6B195A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -921,7 +917,7 @@ header .other-sec .login button:hover {
 }
 
 .about .details .name {
-  color: #1b691f;
+  color: #6B195A;
   margin-bottom: 1rem;
 }
 
@@ -1069,54 +1065,74 @@ header .other-sec .login button:hover {
   -webkit-box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
           box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.05);
   overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.facilitiess .list .item:after {
+.facilitiess .list .item .facilities-image {
   position: absolute;
-  content: '';
   height: 0;
   width: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#1b691f));
-  background: linear-gradient(0deg, #EA560C, #1b691f);
+  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#6B195A));
+  background: linear-gradient(0deg, #EA560C, #6B195A);
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   z-index: 1;
   border-radius: 15px;
 }
 
-.facilitiess .list .item:nth-child(1):after {
+.facilitiess .list .item .facilities-image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.facilitiess .list .item .facilities-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.facilitiess .list .item:nth-child(1) .facilities-image {
   top: 0;
   left: 0;
 }
 
-.facilitiess .list .item:nth-child(2):after {
+.facilitiess .list .item:nth-child(2) .facilities-image {
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.facilitiess .list .item:nth-child(3):after {
+.facilitiess .list .item:nth-child(3) .facilities-image {
   top: 0;
   right: 0;
 }
 
-.facilitiess .list .item:nth-child(4):after {
+.facilitiess .list .item:nth-child(4) .facilities-image {
   bottom: 0;
   left: 0;
 }
 
-.facilitiess .list .item:nth-child(5):after {
+.facilitiess .list .item:nth-child(5) .facilities-image {
   bottom: 0;
   left: 0;
   width: 100%;
 }
 
-.facilitiess .list .item:nth-child(6):after {
+.facilitiess .list .item:nth-child(6) .facilities-image {
   bottom: 0;
   right: 0;
 }
 
-.facilitiess .list .item:hover:after {
+.facilitiess .list .item:hover .facilities-image {
   height: 100%;
   width: 100%;
 }
@@ -1160,8 +1176,8 @@ header .other-sec .login button:hover {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#1b691f));
-  background: linear-gradient(0deg, #EA560C, #1b691f);
+  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#6B195A));
+  background: linear-gradient(0deg, #EA560C, #6B195A);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1216,7 +1232,7 @@ header .other-sec .login button:hover {
 
 .news-events .switch-btn li.active {
   color: #ffffff;
-  background-color: #1b691f;
+  background-color: #6B195A;
 }
 
 .news-events .list {
@@ -1383,7 +1399,7 @@ header .other-sec .login button:hover {
 
 .testimonials .swiper-slide .item {
   position: relative;
-  background-color: #1b691f;
+  background-color: #6B195A;
   color: #ffffff;
   padding: 1.5rem;
   padding-top: 4rem;
@@ -1976,7 +1992,7 @@ footer .list .item .details .group input {
   position: absolute;
   left: 10px;
   bottom: 10px;
-  background-color: rgba(27, 105, 31, 0.8);
+  background-color: rgba(107, 25, 90, 0.8);
   padding: 1rem;
   max-width: 300px;
   width: 100%;
@@ -2099,7 +2115,7 @@ footer .list .item .details .group input {
 }
 
 .governing .item .heading {
-  background-color: #1b691f;
+  background-color: #6B195A;
   color: #ffffff;
   padding: 1rem 2rem;
   font-size: 24px;
@@ -2166,7 +2182,7 @@ footer .list .item .details .group input {
 
 .blog .list .item .details h4 {
   font-size: 24px;
-  color: #1b691f;
+  color: #6B195A;
   margin-bottom: 1rem;
 }
 
@@ -2210,7 +2226,7 @@ footer .list .item .details .group input {
 }
 
 .blog-details .blog-title .time span {
-  color: #1b691f;
+  color: #6B195A;
 }
 
 .blog-details .group {
@@ -2312,18 +2328,18 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
 }
 
 .blog-details .form button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 /*********************      faculty      ***********************/
@@ -2396,7 +2412,7 @@ footer .list .item .details .group input {
 .faculty .list .item .details .name {
   font-size: 22px;
   font-weight: 700;
-  color: #1b691f;
+  color: #6B195A;
 }
 
 .faculty .list .item .details .post {
@@ -2671,7 +2687,7 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .details .item .heading, .mba-course-fee .section .details .item .heading {
-  background-color: #1b691f;
+  background-color: #6B195A;
   color: #ffffff;
   padding: 1rem 2rem;
   font-size: 24px;
@@ -2693,7 +2709,7 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .course-fee-enquire h2, .mba-course-fee .section .course-fee-enquire h2 {
-  color: #1b691f;
+  color: #6B195A;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -2732,9 +2748,9 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -2743,9 +2759,9 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .course-fee-enquire button:hover, .mba-course-fee .section .course-fee-enquire button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 /*********************      approvals      ***********************/
@@ -2933,7 +2949,7 @@ footer .list .item .details .group input {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: #1b691f;
+  background-color: #6B195A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3070,9 +3086,9 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -3080,9 +3096,9 @@ footer .list .item .details .group input {
 }
 
 .admission-page button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 .admission-page .list {
@@ -3164,7 +3180,7 @@ footer .list .item .details .group input {
   height: 250px;
   background-color: #ffffff;
   max-width: 200px;
-  border: 1px dashed #1b691f;
+  border: 1px dashed #6B195A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3186,7 +3202,7 @@ footer .list .item .details .group input {
 }
 
 .admission-page .image .drop-area.active {
-  border: 1px solid #1b691f;
+  border: 1px solid #6B195A;
 }
 
 .admission-page .image .drop-area p {
@@ -3200,18 +3216,18 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #1b691f;
-  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
-          box-shadow: 0 0 0 3em #1b691f inset;
+  border: 1px solid #6B195A;
+  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
+          box-shadow: 0 0 0 3em #6B195A inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
 }
 
 .admission-page .image .drop-area .button:hover {
-  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
-          box-shadow: 0 0 0 0em #1b691f inset;
-  color: #1b691f;
+  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
+          box-shadow: 0 0 0 0em #6B195A inset;
+  color: #6B195A;
 }
 
 .admission-page .image .drop-area img {
@@ -3247,7 +3263,7 @@ footer .list .item .details .group input {
 /*********************      faq-page      ***********************/
 .faq .list .item {
   margin-bottom: 1rem;
-  background-color: #1b691f;
+  background-color: #6B195A;
   padding: 1.5rem;
   border-radius: 15px;
 }
@@ -3577,7 +3593,7 @@ footer .list .item .details .group input {
 
 .gallery-popup .gallery-images .swiper-button-next, .gallery-popup .gallery-images .swiper-button-prev {
   color: #ffffff;
-  background-color: rgba(27, 105, 31, 0.3);
+  background-color: rgba(107, 25, 90, 0.3);
   padding: 2rem;
   border-radius: 50%;
   -webkit-backdrop-filter: blur(4px);
@@ -3610,7 +3626,7 @@ footer .list .item .details .group input {
   left: -350px;
   top: 0;
   height: 100%;
-  background-color: #1b691f;
+  background-color: #6B195A;
   max-width: 300px;
   width: 100%;
   z-index: 20;
@@ -3727,7 +3743,7 @@ footer .list .item .details .group input {
 }
 
 .side-nav .side-nav-bar li .side-nav-drop li {
-  border-color: #1b691f;
+  border-color: #6B195A;
 }
 
 /*********************      mobile-header      ***********************/
