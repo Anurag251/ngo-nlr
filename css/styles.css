@@ -38,7 +38,7 @@ section.bg {
 
 .title h4 {
   text-transform: uppercase;
-  color: #6B195A;
+  color: #1b691f;
   letter-spacing: 1.5px;
   font-style: normal;
   font-weight: 600;
@@ -392,7 +392,7 @@ button:hover {
 
 .enquiry-form-popup .title {
   text-transform: uppercase;
-  color: #6B195A;
+  color: #1b691f;
   margin-bottom: 2rem;
 }
 
@@ -438,9 +438,9 @@ button:hover {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -448,9 +448,9 @@ button:hover {
 }
 
 .enquiry-form-popup button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 /*********************      header      ***********************/
@@ -557,7 +557,7 @@ header .navbar .main-sec .nav-links li .nav-link {
 }
 
 header .navbar .main-sec .nav-links li .nav-link:hover {
-  background-color: rgba(107, 25, 90, 0.1);
+  background-color: rgba(27, 105, 31, 0.1);
 }
 
 header .navbar .main-sec .nav-links li .drop {
@@ -567,7 +567,7 @@ header .navbar .main-sec .nav-links li .drop {
   width: 120px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background-color: #6B195A;
+  background-color: #1b691f;
   padding: .5rem;
   z-index: 5;
   border-radius: 15px;
@@ -609,7 +609,7 @@ header .navbar .main-sec .nav-links li .drop li.more-dropdown .drop-right {
   position: absolute;
   left: 170px;
   top: -16px;
-  background-color: #6B195A;
+  background-color: #1b691f;
   padding: 1rem;
   z-index: 5;
   border-radius: 15px;
@@ -672,7 +672,7 @@ header .other-sec .social-links .links {
 }
 
 header .other-sec .social-links .links i {
-  color: #6B195A;
+  color: #1b691f;
   font-size: 16px;
 }
 
@@ -693,9 +693,9 @@ header .other-sec .login button {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -705,9 +705,9 @@ header .other-sec .login button {
 }
 
 header .other-sec .login button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 /*********************      banner      ***********************/
@@ -832,7 +832,7 @@ header .other-sec .login button:hover {
 }
 
 .news-slide {
-  background-color: #6B195A;
+  background-color: #1b691f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -881,6 +881,14 @@ header .other-sec .login button:hover {
   grid-gap: 20px;
 }
 
+.about.switched {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
 .about:hover .image .img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -904,8 +912,16 @@ header .other-sec .login button:hover {
   height: 100%;
 }
 
+.about .details ul li {
+  font-size: 18px;
+  line-height: 33px;
+  color: #484848;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
 .about .details .name {
-  color: #6B195A;
+  color: #1b691f;
   margin-bottom: 1rem;
 }
 
@@ -1060,8 +1076,8 @@ header .other-sec .login button:hover {
   content: '';
   height: 0;
   width: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#6B195A));
-  background: linear-gradient(0deg, #EA560C, #6B195A);
+  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#1b691f));
+  background: linear-gradient(0deg, #EA560C, #1b691f);
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   z-index: 1;
@@ -1144,8 +1160,8 @@ header .other-sec .login button:hover {
   height: 80px;
   width: 80px;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#6B195A));
-  background: linear-gradient(0deg, #EA560C, #6B195A);
+  background: -webkit-gradient(linear, left bottom, left top, from(#EA560C), to(#1b691f));
+  background: linear-gradient(0deg, #EA560C, #1b691f);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1200,7 +1216,7 @@ header .other-sec .login button:hover {
 
 .news-events .switch-btn li.active {
   color: #ffffff;
-  background-color: #6B195A;
+  background-color: #1b691f;
 }
 
 .news-events .list {
@@ -1367,7 +1383,7 @@ header .other-sec .login button:hover {
 
 .testimonials .swiper-slide .item {
   position: relative;
-  background-color: #6B195A;
+  background-color: #1b691f;
   color: #ffffff;
   padding: 1.5rem;
   padding-top: 4rem;
@@ -1960,7 +1976,7 @@ footer .list .item .details .group input {
   position: absolute;
   left: 10px;
   bottom: 10px;
-  background-color: rgba(107, 25, 90, 0.8);
+  background-color: rgba(27, 105, 31, 0.8);
   padding: 1rem;
   max-width: 300px;
   width: 100%;
@@ -2083,7 +2099,7 @@ footer .list .item .details .group input {
 }
 
 .governing .item .heading {
-  background-color: #6B195A;
+  background-color: #1b691f;
   color: #ffffff;
   padding: 1rem 2rem;
   font-size: 24px;
@@ -2150,7 +2166,7 @@ footer .list .item .details .group input {
 
 .blog .list .item .details h4 {
   font-size: 24px;
-  color: #6B195A;
+  color: #1b691f;
   margin-bottom: 1rem;
 }
 
@@ -2194,7 +2210,7 @@ footer .list .item .details .group input {
 }
 
 .blog-details .blog-title .time span {
-  color: #6B195A;
+  color: #1b691f;
 }
 
 .blog-details .group {
@@ -2296,18 +2312,18 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
 }
 
 .blog-details .form button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 /*********************      faculty      ***********************/
@@ -2380,7 +2396,7 @@ footer .list .item .details .group input {
 .faculty .list .item .details .name {
   font-size: 22px;
   font-weight: 700;
-  color: #6B195A;
+  color: #1b691f;
 }
 
 .faculty .list .item .details .post {
@@ -2655,7 +2671,7 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .details .item .heading, .mba-course-fee .section .details .item .heading {
-  background-color: #6B195A;
+  background-color: #1b691f;
   color: #ffffff;
   padding: 1rem 2rem;
   font-size: 24px;
@@ -2677,7 +2693,7 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .course-fee-enquire h2, .mba-course-fee .section .course-fee-enquire h2 {
-  color: #6B195A;
+  color: #1b691f;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -2716,9 +2732,9 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -2727,9 +2743,9 @@ footer .list .item .details .group input {
 }
 
 .bba-course-fee .section .course-fee-enquire button:hover, .mba-course-fee .section .course-fee-enquire button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 /*********************      approvals      ***********************/
@@ -2917,7 +2933,7 @@ footer .list .item .details .group input {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: #6B195A;
+  background-color: #1b691f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2942,6 +2958,9 @@ footer .list .item .details .group input {
 
 .login-page .login .logo img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .login-page .login .icon {
@@ -3051,9 +3070,9 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
@@ -3061,9 +3080,9 @@ footer .list .item .details .group input {
 }
 
 .admission-page button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 .admission-page .list {
@@ -3145,7 +3164,7 @@ footer .list .item .details .group input {
   height: 250px;
   background-color: #ffffff;
   max-width: 200px;
-  border: 1px dashed #6B195A;
+  border: 1px dashed #1b691f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3167,7 +3186,7 @@ footer .list .item .details .group input {
 }
 
 .admission-page .image .drop-area.active {
-  border: 1px solid #6B195A;
+  border: 1px solid #1b691f;
 }
 
 .admission-page .image .drop-area p {
@@ -3181,18 +3200,18 @@ footer .list .item .details .group input {
   padding: 0.5rem 1rem;
   background: none;
   color: #ffffff;
-  border: 1px solid #6B195A;
-  -webkit-box-shadow: 0 0 0 3em #6B195A inset;
-          box-shadow: 0 0 0 3em #6B195A inset;
+  border: 1px solid #1b691f;
+  -webkit-box-shadow: 0 0 0 3em #1b691f inset;
+          box-shadow: 0 0 0 3em #1b691f inset;
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
 }
 
 .admission-page .image .drop-area .button:hover {
-  -webkit-box-shadow: 0 0 0 0em #6B195A inset;
-          box-shadow: 0 0 0 0em #6B195A inset;
-  color: #6B195A;
+  -webkit-box-shadow: 0 0 0 0em #1b691f inset;
+          box-shadow: 0 0 0 0em #1b691f inset;
+  color: #1b691f;
 }
 
 .admission-page .image .drop-area img {
@@ -3228,7 +3247,7 @@ footer .list .item .details .group input {
 /*********************      faq-page      ***********************/
 .faq .list .item {
   margin-bottom: 1rem;
-  background-color: #6B195A;
+  background-color: #1b691f;
   padding: 1.5rem;
   border-radius: 15px;
 }
@@ -3558,7 +3577,7 @@ footer .list .item .details .group input {
 
 .gallery-popup .gallery-images .swiper-button-next, .gallery-popup .gallery-images .swiper-button-prev {
   color: #ffffff;
-  background-color: rgba(107, 25, 90, 0.3);
+  background-color: rgba(27, 105, 31, 0.3);
   padding: 2rem;
   border-radius: 50%;
   -webkit-backdrop-filter: blur(4px);
@@ -3591,7 +3610,7 @@ footer .list .item .details .group input {
   left: -350px;
   top: 0;
   height: 100%;
-  background-color: #6B195A;
+  background-color: #1b691f;
   max-width: 300px;
   width: 100%;
   z-index: 20;
@@ -3708,7 +3727,7 @@ footer .list .item .details .group input {
 }
 
 .side-nav .side-nav-bar li .side-nav-drop li {
-  border-color: #6B195A;
+  border-color: #1b691f;
 }
 
 /*********************      mobile-header      ***********************/

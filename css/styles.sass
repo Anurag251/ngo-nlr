@@ -15,7 +15,7 @@ select
   appearance: none
 
 $main: #EA560C
-$pri: #6B195A
+$pri: #1b691f
 $sec: #fbb016
 $bg: #f9f9ff
 $title: #373737
@@ -570,6 +570,9 @@ header
 .about
   @include grid($column: 1fr 1.5fr)
 
+  &.switched
+    @include grid($column: 1fr)
+
   &:hover
     .image
       .img
@@ -587,6 +590,14 @@ header
       height: 100%
 
   .details
+    ul
+      li
+        font-size: 18px
+        line-height: 33px
+        color: $para
+        margin-bottom: 1rem
+        text-align: justify
+
     .name
       color: $pri
       margin-bottom: 1rem
@@ -1946,6 +1957,8 @@ footer
 
       img
         width: 100%
+        height: 100%
+        object-fit: contain
 
     .icon
       height: 80px
