@@ -14,15 +14,15 @@
         grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
-  /*********************      our-popular-courses      ***********************/
-  .our-popular-courses .list {
+  /*********************      three-zero      ***********************/
+  .three-zero .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
   }
-  .our-popular-courses .list .item {
+  .three-zero .list .item {
     margin-bottom: 1rem;
   }
   /*********************      chairman      ***********************/
@@ -118,8 +118,8 @@
   .about .image {
     height: 400px;
   }
-  /*********************      our-popular-courses      ***********************/
-  .our-popular-courses .list {
+  /*********************      three-zero      ***********************/
+  .three-zero .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -295,8 +295,8 @@
   .cources .item {
     margin-bottom: 1rem;
   }
-  /*********************      our-popular-courses      ***********************/
-  .our-popular-courses .list {
+  /*********************      three-zero      ***********************/
+  .three-zero .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -345,8 +345,8 @@
         grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   }
-  /*********************      our-popular-courses      ***********************/
-  .our-popular-courses .list {
+  /*********************      three-zero      ***********************/
+  .three-zero .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -537,7 +537,7 @@
   }
   /*********************      bba-course-fee & mba-course-fee      ***********************/
   .bba-course-fee .section .details .item .heading, .mba-course-fee .section .details .item .heading {
-    background-color: #194e6b;
+    background-color: #6B195A;
     color: #ffffff;
     padding: .7rem 1.5rem;
     font-size: 18px;

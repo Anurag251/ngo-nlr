@@ -635,7 +635,7 @@ header
       color: $light
 
 /*********************      our-popular-courses      ***********************/
-.our-popular-courses
+.three-zero
   .list
     @include grid($column: 1fr 1fr 1fr)
 
@@ -668,11 +668,11 @@ header
 /************************   facilities  ************************/ 
 .facilitiess
   .list
-    @include grid($column: 1fr 1fr 1fr)
+    @include grid($column: 1fr 1fr 1fr 1fr)
 
     .item
       position: relative
-      padding: 2rem 1rem
+      padding: 1rem
       text-align: center
       background-color: $light
       border-radius: 15px
@@ -715,23 +715,23 @@ header
           left: 0
           width: 100%
 
+      // &:nth-child(3)
+      //   .facilities-image
+      //     top: 0
+      //     right: 0
+
+      // &:nth-child(4)
+      //   .facilities-image
+      //     bottom: 0
+      //     left: 0
+
       &:nth-child(3)
-        .facilities-image
-          top: 0
-          right: 0
-
-      &:nth-child(4)
-        .facilities-image
-          bottom: 0
-          left: 0
-
-      &:nth-child(5)
         .facilities-image
           bottom: 0
           left: 0
           width: 100%
 
-      &:nth-child(6)
+      &:nth-child(4)
         .facilities-image
           bottom: 0
           right: 0
@@ -780,6 +780,12 @@ header
         h3
           font-size: 24px
           margin: 1.5rem 0 .5rem
+
+        p
+          margin: .5rem 0 2rem
+
+        button
+          @include button($main)
 
 /*********************      news-events      ***********************/
 .news-events
@@ -936,6 +942,10 @@ header
           font-size: 18px
           color: $sec
 
+        button
+          @include button($color: $sec)
+          color: $dark
+
         .desc
           position: relative
           padding: 1.5rem 0
@@ -968,6 +978,23 @@ header
 
 /*********************      gallery      ***********************/
 .gallery
+  .switch-btn
+    @include flex($justify: center)
+    margin-bottom: 2rem
+
+    li
+      padding: .5rem 1.5rem
+      border-radius: 15px
+      background-color: #CBCBE3
+      color: $dark
+      margin: .5rem
+      font-weight: 600
+      cursor: pointer
+
+      &.active
+        color: $light
+        background-color: $pri
+
   .swiper-pagination
     .swiper-pagination-bullet
       height: 8px
