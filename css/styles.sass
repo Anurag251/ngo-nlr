@@ -1008,9 +1008,10 @@ header
   .swiper-wrapper
     padding: 1rem 0 3rem
 
-  .swiper-slide
+  .swiper-slide, .item
     height: 300px
     overflow: hidden
+    position: relative
 
     &:hover
       .image
@@ -1059,6 +1060,10 @@ header
       @include trans()
       cursor: pointer
 
+  &.grid-gallery
+    .images-list
+      @include grid($column: 1fr 1fr 1fr 1fr)
+
 /*********************      our-location      ***********************/
 .our-location
   .map
@@ -1083,7 +1088,7 @@ header
     width: 100%
     overflow: hidden
 
-  .swiper-slide
+  .swiper-slide, .item
     padding: 1rem
     width: 100%
     @include flex($justify: center)
@@ -1097,6 +1102,16 @@ header
 
       img
         width: 80%
+
+  &.grid-partner
+
+    p
+      margin: 1rem 0
+      font-size: 16px
+      color: $para
+
+    .logo-list
+      @include grid($column: 1fr 1fr 1fr)
 
 /*********************      footer      ***********************/
 footer

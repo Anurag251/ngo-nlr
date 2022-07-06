@@ -1553,12 +1553,13 @@ header .other-sec .login button:hover {
   padding: 1rem 0 3rem;
 }
 
-.gallery .swiper-slide {
+.gallery .swiper-slide, .gallery .item {
   height: 300px;
   overflow: hidden;
+  position: relative;
 }
 
-.gallery .swiper-slide:hover .image {
+.gallery .swiper-slide:hover .image, .gallery .item:hover .image {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
@@ -1567,7 +1568,7 @@ header .other-sec .login button:hover {
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95), -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 }
 
-.gallery .swiper-slide:after {
+.gallery .swiper-slide:after, .gallery .item:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -1585,20 +1586,20 @@ header .other-sec .login button:hover {
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
 }
 
-.gallery .swiper-slide:hover:after {
+.gallery .swiper-slide:hover:after, .gallery .item:hover:after {
   height: 100%;
   width: 100%;
   opacity: 1;
 }
 
-.gallery .swiper-slide:hover .name {
+.gallery .swiper-slide:hover .name, .gallery .item:hover .name {
   opacity: 1;
   top: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
 }
 
-.gallery .swiper-slide .image {
+.gallery .swiper-slide .image, .gallery .item .image {
   height: 100%;
   width: 100%;
   background-position: center;
@@ -1606,7 +1607,7 @@ header .other-sec .login button:hover {
   background-repeat: no-repeat;
 }
 
-.gallery .swiper-slide .name {
+.gallery .swiper-slide .name, .gallery .item .name {
   position: absolute;
   left: 50%;
   top: 30%;
@@ -1619,6 +1620,14 @@ header .other-sec .login button:hover {
   -webkit-transition: 0.45s cubic-bezier(0, 0, 0, 1);
   transition: 0.45s cubic-bezier(0, 0, 0, 1);
   cursor: pointer;
+}
+
+.gallery.grid-gallery .images-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 /*********************      our-location      ***********************/
@@ -1661,7 +1670,7 @@ header .other-sec .login button:hover {
   overflow: hidden;
 }
 
-.partner .swiper-slide {
+.partner .swiper-slide, .partner .item {
   padding: 1rem;
   width: 100%;
   display: -webkit-box;
@@ -1675,7 +1684,7 @@ header .other-sec .login button:hover {
           align-items: center;
 }
 
-.partner .swiper-slide .image {
+.partner .swiper-slide .image, .partner .item .image {
   height: 150px;
   width: 150px;
   display: -webkit-box;
@@ -1692,8 +1701,22 @@ header .other-sec .login button:hover {
   border-radius: 15px;
 }
 
-.partner .swiper-slide .image img {
+.partner .swiper-slide .image img, .partner .item .image img {
   width: 80%;
+}
+
+.partner.grid-partner p {
+  margin: 1rem 0;
+  font-size: 16px;
+  color: #484848;
+}
+
+.partner.grid-partner .logo-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 /*********************      footer      ***********************/
